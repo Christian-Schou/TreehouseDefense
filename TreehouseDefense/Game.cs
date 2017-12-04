@@ -14,7 +14,19 @@ namespace TreehouseDefense
 
             try
             {
-                MapLocation mapLocation = new MapLocation(20, 20, map);
+                Path path = new Path(
+                    new [] {
+                        new MapLocation(0, 2, map),
+                        new MapLocation(1, 2, map),
+                        new MapLocation(2, 2, map),
+                        new MapLocation(3, 2, map),
+                        new MapLocation(4, 2, map),
+                        new MapLocation(5, 2, map),
+                        new MapLocation(6, 2, map),
+                        new MapLocation(7, 2, map),
+                        }
+                    );
+
             }
             catch(Exception ex)
             {
