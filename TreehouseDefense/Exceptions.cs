@@ -6,27 +6,25 @@ using System.Threading.Tasks;
 
 namespace TreehouseDefense
 {
-    class TreeHouseDefenseException : System.Exception
+    class TreehouseDefenseException : System.Exception
     {
-        public TreeHouseDefenseException()
+        public TreehouseDefenseException()
         {
         }
 
-        public TreeHouseDefenseException(string message) : base(message)
+        public TreehouseDefenseException(string message) : base(message)
         {
-
         }
     }
 
-    class OutOfBoundsException : TreeHouseDefenseException
+    class OutOfBoundsException : TreehouseDefenseException
     {
         public OutOfBoundsException()
         {
         }
+
         public OutOfBoundsException(string message) : base(message)
         {
-
         }
     }
-
 }
